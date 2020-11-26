@@ -1,0 +1,102 @@
+body{
+    max-width: fit-content;
+}
+
+/* Header */
+.menu{
+    overflow: hidden;
+    white-space: nowrap;
+}
+.menu ul{
+    display: inline-block;
+    font-size: 30px;
+    text-decoration: none;
+    text-align: center;
+
+}
+.banner h1{
+    text-align: left;
+    position: absolute;
+    top: 25%;
+    left: 8px;
+}
+.banner-img{
+    width: 100%;
+}
+.kampagne{
+    background-color: rgb(86, 103, 107, 0.75);
+    color: rgb(255, 228, 175);
+    width: fit-content;
+    padding: 8px 25px 8px 8px;
+}
+
+/* Body */
+.about{
+    margin-left: 100px;
+}
+h2{
+    font-size: 65px;
+}
+.together{
+    font-size: 30px;
+}
+.salling{
+    font-size: 18px;
+    width: 55%;
+}
+.faktaboks{
+    width: 200px;
+    margin-left: 75% ;
+    display: inline-block;
+}
+.faktaboks h3{
+    width: 130px;
+    height: 120px;
+    margin-left: -80%;
+    padding: 5px;
+    background-color: #dda73a;
+    color: white;
+    font-family: Georgia sans-serif;
+    font-weight: bold;
+}
+.faktaboks p{
+    background-color: rgb(221, 166, 58, 0.50);
+    padding: 25px;
+    width: 275px;
+    font-weight: normal;
+}
+.video{
+    margin-left: 100px;
+    margin-top: 200px;
+}
+.kontaktformular{
+    background-color: rgb(00, 74, 98);
+    height: fit-content;
+    width: fit-content;
+    padding: 5px 25px 15px 25px;
+    border-radius: 15%;
+    margin-left: 70%;
+}
+.kontaktformular p{
+    width: 250px;
+    color: white;
+    font-size: 20px;
+}
+.formular{
+    text-align: center;
+    color: white;
+}
+.tilmeld{
+    background-color: rgb(152, 203, 204, 0.25);
+    border-radius: 15px;
+    border: none;
+    margin-top:5px; 
+    text-align: center;
+    height: 25px;
+    color: white;
+}
+.tilmeld :hover{
+    background-color: rgb(152, 203, 204);
+}
+
+/* Footer */
